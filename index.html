@@ -1,15 +1,1 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Clipboard Bridge</title>
-<style>body{font-family:sans-serif;background:#fff;color:#111;margin:40px}pre{font-size:28px;white-space:pre-wrap;word-break:break-all;border:1px solid #ccc;padding:16px;min-height:60px}button{font-size:20px;padding:10px 24px}</style>
-</head><body>
-<h1>Clipboard Bridge</h1>
-<button id="btn">Baca Clipboard</button>
-<pre id="out"></pre>
-<script>
-document.getElementById('btn').addEventListener('click', async () => {
-  const out = document.getElementById('out');
-  try { out.textContent = await navigator.clipboard.readText(); }
-  catch (e) { out.textContent = e.name + ': ' + e.message; }
-});
-</script>
-</body></html>
+<!DOCTYPE html><html><body>gone</body></html>
